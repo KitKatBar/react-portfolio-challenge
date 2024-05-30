@@ -1,3 +1,13 @@
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #053349;
+    color: #ffffff;
+    font-size: 20px;
+}
+
 .contact ul {
     display: flex;
     flex-wrap: wrap;

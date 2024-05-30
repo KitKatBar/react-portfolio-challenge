@@ -3,7 +3,8 @@ import './style.css'
 
 function Footer() {
     return (
-        <footer>
+        <footer class="footer">
+            <h3>Website created and designed by © KitKatBar 2024</h3>
             <address class="contact">
                 <ul>
                     <li>
