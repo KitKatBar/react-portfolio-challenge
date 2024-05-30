@@ -1,0 +1,90 @@
+.section-content {
+    margin: 5px 0;
+    padding: 5px 0;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    width: 95%;
+}
+
+/* Label for each section */
+.section-content h2 {
+    font-size: 125%;
+    padding-right: 10px;
+    text-align: center;
+    flex: 0 0 15%;
+}
+
+/* Used to separate the content from the label */
+.section-content div {
+    flex: 0 0 80%;
+}
+
+/* Font size for the text in the About Me section */
+.section-content p {
+    font-size: 90%;
+    margin-left: 20px;
+    
+    line-height: 1.5;
+}
+
+/* Media query for defining layout when resizing for devices with a display of 992 pixels and smaller */
+@media screen and (max-width: 992px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+    .section-content {
+        margin: 5px 0;
+        padding: 5px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .section-content div {
+        padding: 10px;
+    }
+
+    .section-content h2 {
+        font-size: 115%;
+        border-right: none;
+        padding-bottom: 10px;
+        text-align: center;
+        flex: 0 0 15%;
+    }
+
+    .section-content p {
+        font-size: 85%;
+        margin-left: 20px;
+        
+        line-height: 1.5;
+    }
+
+    .project-flex {
+        flex: 1 1 50%;
+    }
+}
+
+/* Media query for defining layout when resizing for devices with a display of 768 pixels and smaller */
+@media screen and (max-width: 768px) {
+    .contact ul {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact ul a {
+        margin: 5px;
+    }
+}

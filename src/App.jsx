@@ -22,8 +22,11 @@ function App() {
         <Nav pages={pages} current={current} setCurrent={setCurrent} />
       </Header>
       <main className="App-header">
-        <video src={background} autoPlay loop muted />
-        <Page current={current} />
+        <section className="container">
+          <div className="overlay"></div>
+          <video src={background} autoPlay loop muted />
+          <Page current={current} />
+        </section>
       </main>
       <Footer />
     </div>
