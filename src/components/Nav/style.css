@@ -8,7 +8,7 @@ nav ul {
 
 /* Hover effect for each of the nav bar items
    Credits to this site: https://css-tricks.com/css-link-hover-effects/ */
-nav ul a {
+nav ul span {
     font-size: 20px;
     color: white;
     margin: 7.5px;
@@ -24,7 +24,7 @@ nav ul a {
     transition: all 0.5s ease-in-out;
 }
   
-nav ul a:before {
+nav ul span:before {
     content: '';
     background: #54b3d6;
     display: block;
@@ -36,10 +36,11 @@ nav ul a:before {
     transition: all 0.5s ease-in-out;
 }
   
-nav ul a:hover {
+nav ul span:hover {
     background-position: 0;
+    cursor: pointer;
 }
   
-nav ul a:hover::before {
+nav ul span:hover::before {
     width:100%;
 }
