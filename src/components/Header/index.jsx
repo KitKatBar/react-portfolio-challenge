@@ -1,10 +1,13 @@
 import React from 'react';
 import './style.css'
 
-function Header() {
+function Header(props) {
     return (
-        <header>
-            
+        <header class="header">
+            <h1>
+                KitKatBar's Site
+            </h1>
+            {props.children}
         </header>
     );
 }
