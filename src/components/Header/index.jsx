@@ -3,7 +3,7 @@ import './style.css'
 
 function Header(props) {
     return (
-        <header class="header">
+        <header className="header">
             <h1>
                 KitKatBar's Site
             </h1>

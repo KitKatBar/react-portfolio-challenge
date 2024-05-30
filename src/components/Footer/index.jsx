@@ -3,9 +3,9 @@ import './style.css'
 
 function Footer() {
     return (
-        <footer class="footer">
+        <footer className="footer">
             <h3>Website created and designed by © KitKatBar 2024</h3>
-            <address class="contact">
+            <address className="contact">
                 <ul>
                     <li>
                         <a id="phone" href="tel:my-number-here"> </a>
