@@ -9,7 +9,7 @@ nav ul {
 /* Hover effect for each of the nav bar items
    Credits to this site: https://css-tricks.com/css-link-hover-effects/ */
 nav ul a {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     margin: 7.5px;
     background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #fff 50%);

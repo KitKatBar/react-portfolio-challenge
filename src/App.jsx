@@ -4,12 +4,22 @@ import React, { useState } from 'react';
 import Header  from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Page from './components/Page';
 
 function App() {
+  const [pages] = useState([
+    { page: "AboutMe" },
+    { page: "Portfolio" },
+    { page: "Contact" },
+    { page: "Resume" }
+  ]);
+
+  const [current, setCurrent] = useState(pages[0]);
+  
   return (
     <div className="App">
       <Header>
-        <Nav />
+        <Nav pages={pages} current={current} setCurrent={setCurrent}/>
       </Header>
       <main className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -24,6 +34,7 @@ function App() {
         >
           Learn React
         </a>
+        <Page current={current} />
       </main>
       <Footer />
     </div>
