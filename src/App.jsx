@@ -3,11 +3,14 @@ import './App.css';
 import React, { useState } from 'react';
 import Header  from './components/Header';
 import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header>
+        <Nav />
+      </Header>
       <main className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
