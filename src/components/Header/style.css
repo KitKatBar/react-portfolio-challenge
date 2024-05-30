@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #053349;
     color: #ffffff;
@@ -20,4 +20,19 @@
     -webkit-text-fill-color: transparent;
     margin: 0px;
     font-size: 30px;
+}
+
+#logo {
+    height: 200px;
+    width: 25%;
+    background-image: url("../../assets/logo/kitkatbar-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
+#logo:hover {
+    transform: scale(1.5);
+    transition: transform .5s ease;
 }
