@@ -1,0 +1,51 @@
+.resume-content {
+    margin: 5px 0;
+    padding: 5px 0;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    width: 80%;
+}
+
+.resume-content h2 {
+    font-size: 125%;
+    padding-right: 10px;
+    text-align: center;
+    flex: 0 0 15%;
+}
+
+/* Used to separate the content from the label */
+.resume-content div {
+    flex: 0 0 80%;
+}
+
+.download-resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.download-resume a {
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Animation when hovering over each contact option */
+.download-resume a:hover {
+    transform: scale(1.25);
+    transition: transform .5s ease;
+}
+
+#download-icon {
+    height: 150px;
+    width: 150px;
+    background-image: url("../../assets/icons/hu-tao-resume.webp");
+    background-size: cover;
+    background-position: center;
+    transition: transform .5s ease;
+}
