@@ -3,10 +3,10 @@ import './style.css'
 
 function Contact() {
     return (
-        
+            <section className="contact-content"><h2>Contact Form</h2>
             <section class="form-box" method="POST">
                 <form>
-                    <h2>Contact Form</h2>
+                    
                     
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name"/>
@@ -22,7 +22,7 @@ function Contact() {
                     <button id="submit">Submit</button>
                 </form>
             </section>
-        
+        </section>
     );
 }
 
