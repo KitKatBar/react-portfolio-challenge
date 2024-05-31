@@ -10,13 +10,59 @@ function Resume() {
             <section className="download-resume">
                 <a id="download-icon" href="katriel-chiu-resume.pdf" download> </a>
             </section>
-            <h3>Click me to download!</h3>
+            <h3>
+                Click me to download!
+            </h3>
             <h2>
                 Skills & Profeciencies
             </h2>
-            <div>
-                
-            </div>
+            <section class="skills-flex">
+                <section class="skills-card">
+                    <h3>
+                        Front-End
+                    </h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Local Storage</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </section>
+                <section class="skills-card">
+                    <h3>
+                        Back-End
+                    </h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>SQL/PostgreSQL</li>
+                        <li>ORM/MVC</li>
+                        <li>CRUD Operations</li>
+                        <li>RESTful APIs</li>
+                        <li>Insomnia</li>
+                        <li>NoSQL/MongoDB</li>
+                    </ul>
+                </section>
+                <section class="skills-card">
+                    <h3>
+                        Other Technologies
+                    </h3>
+                    <ul>
+                        <li>Java 8</li>
+                        <li>Operating Systems</li>
+                        <li>Testing/Debugging</li>
+                        <li>Postman</li>
+                        <li>Git Commands</li>
+                        <li>Version Control</li>
+                        <li>Jenkins/Render</li>
+                        <li>JIRA</li>
+                    </ul>
+                </section>
+            </section>
         </section>
     );
 }
