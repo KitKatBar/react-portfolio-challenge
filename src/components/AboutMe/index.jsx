@@ -3,7 +3,7 @@ import './style.css'
 
 function AboutMe() {
     return (
-        <section className="content">
+        
             <section className="section-content">
                 <h2>
                     About Me
@@ -31,7 +31,7 @@ function AboutMe() {
                     </p>
                 </div>
             </section>
-        </section>
+        
     );
 }
 
