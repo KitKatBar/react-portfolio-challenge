@@ -31,8 +31,8 @@
 }
 
 #about-icon {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-image: url("../../assets/icons/hu-tao-about.webp");
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@
 
 /* Adjust the sizes for the header elements */
 .about-me-content h2 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding-right: 10px;
     text-align: center;
     flex: 0 0 15%;
@@ -61,43 +61,33 @@
     color: #f4e7d0;
 }
 
-/* Multiple media screen queries to adjust the font size based on the screen solution */
-@media screen and (max-width: 1680px) {
+/* Media screen queries to adjust the font size based on the screen solution */
+@media screen and (max-width: 1280px) {
     .about-me-content h2 {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
-    
+
     .about-me-content p {
         font-size: 1.5vw;
     }
 }
 
-@media screen and (max-width: 1280px) {
-    .about-me-content h2 {
-        font-size: 3vw;
-    }
-
-    .about-me-content p {
-        font-size: 2vw;
-    }
-}
-
 @media screen and (max-width: 992px) {
     .about-me-content h2 {
-        font-size: 3.5vw;
+        font-size: 2.75vw;
     }
 
     .about-me-content p {
-        font-size: 2.25vw;
+        font-size: 1.75vw;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about-me-content h2 {
-        font-size: 3.75vw;
+        font-size: 3.25vw;
     }
 
     .about-me-content p {
-        font-size: 2.5vw;
+        font-size: 2.25vw;
     }
 }

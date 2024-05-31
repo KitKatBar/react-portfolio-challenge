@@ -9,7 +9,7 @@ nav ul {
 /* Hover effect for each of the nav bar items
    Credits to this site: https://css-tricks.com/css-link-hover-effects/ */
 nav ul span {
-    font-size: 25px;
+    font-size: 15px;
     color: #eaafb7;
     margin: 7.5px;
     background-image: linear-gradient(to right, #cb010d, #cb010d 50%, #eaafb7 50%);
@@ -47,7 +47,7 @@ nav ul span:hover::before {
 
 /* Duplicated hover effect that reverses the colors to indicated which page it is on */
 nav ul > li.active span {
-    font-size: 25px;
+    font-size: 15px;
     color: #cb010d;
     margin: 7.5px;
     background-image: linear-gradient(to left, #cb010d, #cb010d 50%, #eaafb7 50%);

@@ -1,3 +1,4 @@
+/* Class selector layout for footer */
 .footer {
     padding: 20px;
     clear: both;
@@ -5,9 +6,10 @@
     text-align: center;
     background-color: #440c14;
     color: #eaafb7;
-    font-size: 20px;
+    font-size: 13px;
 }
 
+/* Adjust display of each contact option */
 .contact ul {
     display: flex;
     flex-wrap: wrap;
@@ -30,8 +32,8 @@
 
 /* The following are just ID selectors for each icon representing the contact options */
 #phone {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-image: url("../../assets/contacts/phone.png");
     background-size: cover;
     background-position: center;
@@ -39,8 +41,8 @@
 }
 
 #e-mail {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-image: url("../../assets/contacts/email.svg");
     background-size: cover;
     background-position: center;
@@ -48,8 +50,8 @@
 }
 
 #github {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-image: url("../../assets/contacts/github.png");
     background-size: cover;
     background-position: center;
@@ -57,8 +59,8 @@
 }
 
 #linkedin {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-image: url("../../assets/contacts/linkedin.webp");
     background-size: cover;
     background-position: center;
@@ -66,8 +68,8 @@
 }
 
 #discord {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-image: url("../../assets/contacts/discord.webp");
     background-size: cover;
     background-position: center;
@@ -75,8 +77,8 @@
 }
 
 #youtube {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-image: url("../../assets/contacts/youtube.png");
     background-size: cover;
     background-position: center;
