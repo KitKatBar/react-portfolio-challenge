@@ -75,7 +75,7 @@
     border-radius: 8px;
     box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
       rgba(1, 15, 26, 0.15) 0 2px 4px 3px;
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 0;
     width: 25%;
     display: block;
@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 992px) {
     .resume-content h2 {
-        font-size: 2.75vw;
+        font-size: 2.5vw;
     }
 
     .resume-content h3 {
@@ -114,7 +114,7 @@
     }
     
     .skills-card ul {
-        font-size: 1.5vw;
+        font-size: 1.25vw;
     }
 }
 

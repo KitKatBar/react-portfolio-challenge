@@ -84,10 +84,10 @@
 
 @media screen and (max-width: 768px) {
     .about-me-content h2 {
-        font-size: 3.25vw;
+        font-size: 3vw;
     }
 
     .about-me-content p {
-        font-size: 2.25vw;
+        font-size: 2vw;
     }
 }

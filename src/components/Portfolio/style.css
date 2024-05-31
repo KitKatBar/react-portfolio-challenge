@@ -66,11 +66,11 @@
     text-decoration: none;
     align-items: flex-end;
     margin: 5px 10px 5px 20px;
-    padding: 0 0 20px 0;
+    padding: 0 0 5px 0;
     max-height: 100px;
     min-height: 100px;
     background-size: 150%;
-    font-size: 30px;
+    font-size: 20px;
     color: grey;
     flex-basis: calc(50% - 50px);
     position: relative;
@@ -86,7 +86,7 @@
 
 /* Name for each project adjusted to the top-left corner of the box */
 .project-flex h3 {
-    font-size: 1.25vw;
+    font-size: 1vw;
     color: #f4e7d0;
     background-color: #930a00;
     padding: 7px;
@@ -97,7 +97,7 @@
 
 /* Technologies used in each project adjusted to the bottom-right corner of the box */
 .project-flex span {
-    font-size: 1.25vw;
+    font-size: 1vw;
     color: #f4e7d0;
     background-color: #78202d;
     padding: 5px;
@@ -190,36 +190,30 @@
 }
 
 /* Media screen queries to adjust the font size based on the screen solution */
-@media screen and (max-width: 1280px) {
-    .portfolio-content h2 {
-        font-size: 2vw;
-    }
-
-    .project-flex h3 {
-        font-size: 1.5vw;
-    }
-    
-    .project-flex span {
-        font-size: 1.5vw;
-    }
-}
-
 @media screen and (max-width: 992px) {
     .portfolio-content h2 {
-        font-size: 2.75vw;
+        font-size: 2.25vw;
     }
 
     .project-flex h3 {
-        font-size: 1.75vw;
+        font-size: 1.25vw;
     }
     
     .project-flex span {
-        font-size: 1.75vw;
+        font-size: 1.25vw;
     }
 }
 
 @media screen and (max-width: 768px) {
     .portfolio-content h2 {
-        font-size: 3.25vw;
+        font-size: 2.5vw;
+    }
+
+    .project-flex h3 {
+        font-size: 1.5vw;
+    }
+    
+    .project-flex span {
+        font-size: 1.5vw;
     }
 }
