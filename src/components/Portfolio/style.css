@@ -67,7 +67,7 @@
 
 /* Name for each project adjusted to the top-left corner of the box */
 .project-flex h3 {
-    font-size: 15px;
+    font-size: 13px;
     color: black;
     background-color: #2a607c;
     padding: 5px;
@@ -78,7 +78,7 @@
 
 /* Technologies used in each project adjusted to the bottom-right corner of the box */
 .project-flex span {
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     background-color: #08043f;
     padding: 5px;
@@ -87,53 +87,86 @@
     right: 0;
 }
 
+.project-flex a {
+    position: absolute;
+    /* bottom: 0;
+    left: 0; */
+    top: 0;
+    right: 0;
+}
+
+.project-flex a:hover {
+    filter: brightness(125%);
+    transform: scale(1.025);
+    transition: transform .5s ease;
+}
+
 /* The following are just ID selectors for each project to display the image within the box */
-#horiseon {
-    height: 400px;
-    width: 100%;
+#data-rebels {
+    height: 150px;
     margin-bottom: 25px;
-    background-image: url("../../assets/portfolio/digital-marketing-meeting.jpg");
+    background-image: url("../../assets/portfolio/data-rebels.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
+#tech-blog {
+    height: 150px;
+    margin-bottom: 25px;
+    background-image: url("../../assets/portfolio/moustachit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
+#soccer-info {
+    height: 150px;
+    margin-bottom: 25px;
+    background-image: url("../../assets/portfolio/soccersphere-hq.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
+#weather-dashboard {
+    height: 150px;
+    margin-bottom: 25px;
+    background-image: url("../../assets/portfolio/openweather.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
+#text-editor {
+    height: 150px;
+    margin-bottom: 25px;
+    background-image: url("../../assets/portfolio/jate.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
+#blog {
+    height: 150px;
+    margin-bottom: 25px;
+    background-image: url("../../assets/portfolio/blog.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
+#github-link {
+    height: 75px;
+    width: 75px;
+    background-image: url("../../assets/icons/github-link.webp");
     background-size: cover;
-    background-position: center;
-    transition: transform .5s ease;
-}
-
-#prework {
-    height: 150px;
-    margin-bottom: 25px;
-    background-image: url("../../assets/portfolio/prework-study-guide.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: transform .5s ease;
-}
-
-#backend {
-    height: 150px;
-    margin-bottom: 25px;
-    background-image: url("../../assets/portfolio/spring-boot.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: transform .5s ease;
-}
-
-#frontend {
-    height: 150px;
-    margin-bottom: 25px;
-    background-image: url("../../assets/portfolio/angular.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: transform .5s ease;
-}
-
-#feast {
-    height: 150px;
-    margin-bottom: 25px;
-    background-image: url("../../assets/portfolio/java.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: center;
     transition: transform .5s ease;
 }

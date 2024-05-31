@@ -9,40 +9,46 @@ function Portfolio() {
             </h2>
             <div>
                 <section class="section-flex">
-                    <a id="horiseon" class="project-flex" href="https://kitkatbar.github.io/code-refactor-challenge/">
+                    <a id="data-rebels" class="project-flex" href="https://datarebels.onrender.com/">
                         <article>
-                            <h3>Horiseon Website</h3>
-                            <span>HTML/CSS</span>
+                            <h3>Data Rebels</h3>
+                            <span>CSS/JavaScript/Handlebars</span>
+                            <a id="github-link" href="https://github.com/Odesii/dataRebels"> </a>
                         </article>
                     </a>
-                    <a id="horiseon" class="project-flex" href="https://kitkatbar.github.io/code-refactor-challenge/">
+                    <a id="tech-blog" class="project-flex" href="https://github.com/KitKatBar/tech-blog-challenge">
                         <article>
-                            <h3>Horiseon Website</h3>
-                            <span>HTML/CSS</span>
+                            <h3>Tech Blog</h3>
+                            <span>CSS/JavaScript/Handlebars</span>
+                            <a id="github-link" href="https://tech-blog-challenge.onrender.com"> </a>
                         </article>
                     </a>
-                    <a id="prework" class="project-flex" href="https://kitkatbar.github.io/prework-study-guide/">
+                    <a id="soccer-info" class="project-flex" href="https://moe1362.github.io/soccer-info/">
                         <article>
-                            <h3>Prework Study Guide</h3>
-                            <span>HTML/CSS</span>
+                            <h3>Soccer Info</h3>
+                            <span>HTML/CSS/JavaScript</span>
+                            <a id="github-link" href="https://github.com/Moe1362/soccer-info"> </a>
                         </article>
                     </a>
-                    <a id="backend" class="project-flex" href="https://github.com/KitKatBar/TimeManagement-BackEnd">
+                    <a id="weather-dashboard" class="project-flex" href="https://kitkatbar.github.io/weather-dashboard-challenge/">
                         <article>
-                            <h3>Timesheet Manager (Backend)</h3>
-                            <span>Java/Spring Boot</span>
+                            <h3>Weather Dashboard</h3>
+                            <span>HTML/CSS/JavaScript</span>
+                            <a id="github-link" href="https://github.com/KitKatBar/weather-dashboard-challenge"> </a>
                         </article>
                     </a>
-                    <a id="frontend" class="project-flex" href="https://github.com/KitKatBar/TimeManagement-FrontEnd">
+                    <a id="text-editor" class="project-flex" href="https://text-editor-challenge-c0we.onrender.com/">
                         <article>
-                            <h3>Timesheet Manager (Frontend)</h3>
-                            <span>Angular/TypeScript/HTML/CSS</span>
+                            <h3>Text Editor</h3>
+                            <span>HTML/CSS/Javascript</span>
+                            <a id="github-link" href="https://github.com/KitKatBar/text-editor-challenge"> </a>
                         </article>
                     </a>
-                    <a id="feast" class="project-flex" href="https://github.com/KitKatBar/FeastFreedom-Clean">
+                    <a id="blog" class="project-flex" href="https://kitkatbar.github.io/personal-blog-challenge/">
                         <article>
-                            <h3>Feast Freedom</h3>
-                            <span>Java/Spring Boot/HTML/CSS</span>
+                            <h3>Personal Blog</h3>
+                            <span>HTML/CSS/JavaScript</span>
+                            <a id="github-link" href="https://github.com/KitKatBar/personal-blog-challenge"> </a>
                         </article>
                     </a>
                 </section>
