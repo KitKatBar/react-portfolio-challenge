@@ -14,7 +14,7 @@ function Resume() {
                 Click me to download!
             </h3>
             <h2>
-                Skills & Profeciencies
+                Skills & Proficiencies
             </h2>
             <section class="skills-flex">
                 <section class="skills-card">
