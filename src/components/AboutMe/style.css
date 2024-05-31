@@ -1,9 +1,6 @@
-
-
 .about-me-content {
     margin: 5px 0;
     padding: 5px 0;
-    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -58,7 +55,6 @@
 .about-me-content p {
     font-size: 1.25vw;
     margin-left: 20px;
-    
     line-height: 1.5;
     color: #f4e7d0;
 }
@@ -66,75 +62,43 @@
 @media screen and (max-width: 1680px) {
     .about-me-content h2 {
         font-size: 2.5vw;
-        padding-right: 10px;
-        text-align: center;
-        flex: 0 0 15%;
-        color: #fdfff2;
     }
     
     /* Font size for the text in the About Me section */
     .about-me-content p {
         font-size: 1.5vw;
-        margin-left: 20px;
-        
-        line-height: 1.5;
-        color: #f4e7d0;
     }
 }
 
 @media screen and (max-width: 1280px) {
     .about-me-content h2 {
         font-size: 3vw;
-        padding-right: 10px;
-        text-align: center;
-        flex: 0 0 15%;
-        color: #fdfff2;
     }
     
     /* Font size for the text in the About Me section */
     .about-me-content p {
         font-size: 2vw;
-        margin-left: 20px;
-        
-        line-height: 1.5;
-        color: #f4e7d0;
     }
 }
 
 @media screen and (max-width: 992px) {
     .about-me-content h2 {
         font-size: 3.5vw;
-        padding-right: 10px;
-        text-align: center;
-        flex: 0 0 15%;
-        color: #fdfff2;
     }
     
     /* Font size for the text in the About Me section */
     .about-me-content p {
         font-size: 2.25vw;
-        margin-left: 20px;
-        
-        line-height: 1.5;
-        color: #f4e7d0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about-me-content h2 {
         font-size: 3.75vw;
-        padding-right: 10px;
-        text-align: center;
-        flex: 0 0 15%;
-        color: #fdfff2;
     }
     
     /* Font size for the text in the About Me section */
     .about-me-content p {
         font-size: 2.5vw;
-        margin-left: 20px;
-        
-        line-height: 1.5;
-        color: #f4e7d0;
     }
 }

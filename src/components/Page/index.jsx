@@ -25,7 +25,9 @@ function Page({current}) {
     }
 
     return (
-        <section className="content">{render()}</section>
+        <section className="content">
+            {render()}
+        </section>
     );
 }
 

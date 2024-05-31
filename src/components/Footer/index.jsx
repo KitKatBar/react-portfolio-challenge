@@ -4,7 +4,9 @@ import './style.css'
 function Footer() {
     return (
         <footer className="footer">
-            <h3>Website created and designed by © KitKatBar 2024</h3>
+            <h3>
+                Website created and designed by © KitKatBar 2024
+            </h3>
             <address className="contact">
                 <ul>
                     <li>
