@@ -11,6 +11,33 @@
     justify-content: center;
     width: 95%;
 }
+.center-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.center-icon section {
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Animation when hovering over each contact option */
+.center-icon section:hover {
+    transform: scale(1.25);
+    transition: transform .5s ease;
+}
+
+#about-icon {
+    height: 150px;
+    width: 150px;
+    background-image: url("../../assets/icons/hu-tao-about.webp");
+    background-size: cover;
+    background-position: center;
+    transition: transform .5s ease;
+}
 
 /* Label for each section */
 .about-me-content h2 {
@@ -18,6 +45,7 @@
     padding-right: 10px;
     text-align: center;
     flex: 0 0 15%;
+    color: #fdfff2;
 }
 
 /* Used to separate the content from the label */
@@ -31,4 +59,5 @@
     margin-left: 20px;
     
     line-height: 1.5;
+    color: #f4e7d0;
 }

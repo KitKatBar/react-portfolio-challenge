@@ -18,6 +18,7 @@
     padding-right: 10px;
     text-align: center;
     flex: 0 0 15%;
+    color: #fdfff2;
 }
 
 /* Used to separate the content from the label */
@@ -42,7 +43,7 @@
 
 /* Class selector for defining each project into their own separate flex container */
 .project-flex {
-    border: solid 3px navy;
+    border: solid 3px #cb010d;
     display: flex;
     text-decoration: none;
     align-items: flex-end;
@@ -62,15 +63,15 @@
     filter: brightness(125%);
     transform: scale(1.025);
     transition: transform .5s ease;
-    background-color: peachpuff;
+    background-color: #440c14;
 }
 
 /* Name for each project adjusted to the top-left corner of the box */
 .project-flex h3 {
     font-size: 13px;
-    color: black;
-    background-color: #2a607c;
-    padding: 5px;
+    color: #f4e7d0;
+    background-color: #930a00;
+    padding: 7px;
     position: absolute;
     top: 0;
     margin: 0;
@@ -79,8 +80,8 @@
 /* Technologies used in each project adjusted to the bottom-right corner of the box */
 .project-flex span {
     font-size: 13px;
-    color: white;
-    background-color: #08043f;
+    color: #f4e7d0;
+    background-color: #78202d;
     padding: 5px;
     position: absolute;
     bottom: 0;
@@ -96,7 +97,7 @@
 }
 
 .project-flex a:hover {
-    filter: brightness(125%);
+    filter: brightness(150%);
     transform: scale(1.025);
     transition: transform .5s ease;
 }

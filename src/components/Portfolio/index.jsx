@@ -12,14 +12,14 @@ function Portfolio() {
                     <a id="data-rebels" class="project-flex" href="https://datarebels.onrender.com/">
                         <article>
                             <h3>Data Rebels</h3>
-                            <span>CSS/JavaScript/Handlebars</span>
+                            <span>Handlebars/CSS/JavaScript</span>
                             <a id="github-link" href="https://github.com/Odesii/dataRebels"> </a>
                         </article>
                     </a>
                     <a id="tech-blog" class="project-flex" href="https://github.com/KitKatBar/tech-blog-challenge">
                         <article>
                             <h3>Tech Blog</h3>
-                            <span>CSS/JavaScript/Handlebars</span>
+                            <span>Handlebars/CSS/JavaScript</span>
                             <a id="github-link" href="https://tech-blog-challenge.onrender.com"> </a>
                         </article>
                     </a>

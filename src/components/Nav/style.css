@@ -10,9 +10,9 @@ nav ul {
    Credits to this site: https://css-tricks.com/css-link-hover-effects/ */
 nav ul span {
     font-size: 25px;
-    color: white;
+    color: eaafb7;
     margin: 7.5px;
-    background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #fff 50%);
+    background-image: linear-gradient(to right, #cb010d, #cb010d 50%, #eaafb7 50%);
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
@@ -26,7 +26,7 @@ nav ul span {
   
 nav ul span:before {
     content: '';
-    background: #54b3d6;
+    background: #cb010d;
     display: block;
     position: absolute;
     bottom: -3px;
@@ -47,9 +47,9 @@ nav ul span:hover::before {
 
 nav ul > li.active span {
     font-size: 25px;
-    color: #54b3d6;
+    color: #cb010d;
     margin: 7.5px;
-    background-image: linear-gradient(to left, #54b3d6, #54b3d6 50%, #fff 50%);
+    background-image: linear-gradient(to left, #cb010d, #cb010d 50%, #eaafb7 50%);
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
@@ -63,7 +63,7 @@ nav ul > li.active span {
   
 nav ul > li.active span:before {
     content: '';
-    background: white;
+    background: eaafb7;
     display: block;
     position: absolute;
     bottom: -3px;

@@ -7,14 +7,14 @@
     flex-wrap: wrap;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #053349;
+    background-color: #440c14;
     color: #ffffff;
 }
 
 /* Nice color gradient for my nickname */
 .header h1 {
     color: beige;
-    background-image: linear-gradient(135deg, #05b923 0%, #009cc4 100%);
+    background-image: linear-gradient(135deg, #eaafb7 0%, #a5968c 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
