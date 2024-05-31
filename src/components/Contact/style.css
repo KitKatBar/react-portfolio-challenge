@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     
     justify-content: center;
-    width: 70%;
+    width: 80%;
 }
 
 .contact-content h2 {
@@ -27,7 +27,7 @@
       rgba(1, 15, 26, 0.15) 0 2px 4px 3px;
     margin: 60px auto;
     padding: 5px 20px;
-    width: 40vw;
+    width: 50vw;
     display: block;
 }
 

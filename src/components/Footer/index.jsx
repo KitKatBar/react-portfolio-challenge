@@ -11,7 +11,7 @@ function Footer() {
                         <a id="phone" href="tel:my-number-here"> </a>
                     </li>
                     <li>
-                        <a id="email" href="mailto:katriel_chiu@msn.com"> </a>
+                        <a id="e-mail" href="mailto:katriel_chiu@msn.com"> </a>
                     </li>
                     <li>
                         <a id="github" href="https://github.com/KitKatBar/"> </a>
