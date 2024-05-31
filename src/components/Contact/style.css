@@ -10,6 +10,34 @@
     width: 80%;
 }
 
+.center-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.center-icon section {
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Animation when hovering over each contact option */
+.center-icon section:hover {
+    transform: scale(1.25);
+    transition: transform .5s ease;
+}
+
+#contact-icon {
+    height: 150px;
+    width: 150px;
+    background-image: url("../../assets/icons/hu-tao-contact.webp");
+    background-size: cover;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
 .contact-content h2 {
     font-size: 125%;
     padding-right: 10px;
@@ -26,7 +54,7 @@
     border-radius: 8px;
     box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
       rgba(1, 15, 26, 0.15) 0 2px 4px 3px;
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 5px 20px;
     width: 50vw;
     display: block;

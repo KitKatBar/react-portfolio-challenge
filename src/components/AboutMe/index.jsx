@@ -5,9 +5,9 @@ function AboutMe() {
     return (
         
             <section className="about-me-content">
-                {/* <section className="center-icon">
-                    <section id="about-icon"> </section>
-                </section> */}
+                <section className="center-icon">
+                    <section id="about-icon"></section>
+                </section>
                 <h2>
                     About Me
                 </h2>

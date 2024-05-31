@@ -73,7 +73,11 @@ function Contact() {
     }
     
     return (
-            <section className="contact-content"><h2>Contact Form</h2>
+            <section className="contact-content">
+                <section className="center-icon">
+                    <section id="contact-icon"></section>
+                </section>
+                <h2>Contact Form</h2>
             <section class="form-box">
                 <form onSubmit={handleSubmit}>
                     <label for="name">Name</label>

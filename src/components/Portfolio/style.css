@@ -12,6 +12,34 @@
     width: 70%;
 }
 
+.center-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.center-icon section {
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Animation when hovering over each contact option */
+.center-icon section:hover {
+    transform: scale(1.25);
+    transition: transform .5s ease;
+}
+
+#portfolio-icon {
+    height: 150px;
+    width: 150px;
+    background-image: url("../../assets/icons/hu-tao-portfolio.webp");
+    background-size: cover;
+    background-position: center;
+    transition: transform .5s ease;
+}
+
 /* Label for each section */
 .portfolio-content h2 {
     font-size: 125%;

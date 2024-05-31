@@ -4,6 +4,9 @@ import './style.css'
 function Portfolio() {
     return (
         <section class="portfolio-content">
+            <section className="center-icon">
+                    <section id="portfolio-icon"></section>
+                </section>
             <h2>
                 Projects
             </h2>
