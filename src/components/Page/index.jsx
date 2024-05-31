@@ -6,6 +6,7 @@ import Resume from '../Resume/index';
 import './style.css';
 
 function Page({current}) {
+    // Return the element of the current page for rendering
     function render() {
         if (current.page === "AboutMe") {
             return <AboutMe />
@@ -26,6 +27,7 @@ function Page({current}) {
 
     return (
         <section className="content">
+            {/* Render the current page */}
             {render()}
         </section>
     );

@@ -7,6 +7,7 @@ function Resume() {
             <h2>
                 Resume
             </h2>
+            {/* This is an icon for the page and you click it to download my resume */}
             <section className="download-resume">
                 <a id="download-icon" href="katriel-chiu-resume.pdf" download> </a>
             </section>
@@ -17,6 +18,7 @@ function Resume() {
                 Skills & Proficiencies
             </h2>
             <section class="skills-flex">
+                {/* Each of my skillset sectioned into different categories */}
                 <section class="skills-card">
                     <h3>
                         Front-End

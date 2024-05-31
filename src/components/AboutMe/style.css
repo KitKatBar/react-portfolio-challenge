@@ -1,3 +1,4 @@
+/* Specifications for the content of this page */
 .about-me-content {
     margin: 5px 0;
     padding: 5px 0;
@@ -9,6 +10,7 @@
     width: 95%;
 }
 
+/* Adjust the icon to the center */
 .center-icon {
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +24,7 @@
     padding: 5px;
 }
 
-/* Animation when hovering over each contact option */
+/* Animation when hovering over the icon */
 .center-icon section:hover {
     transform: scale(1.25);
     transition: transform .5s ease;
@@ -37,7 +39,7 @@
     transition: transform .5s ease;
 }
 
-/* Label for each section */
+/* Adjust the sizes for the header elements */
 .about-me-content h2 {
     font-size: 2vw;
     padding-right: 10px;
@@ -59,12 +61,12 @@
     color: #f4e7d0;
 }
 
+/* Multiple media screen queries to adjust the font size based on the screen solution */
 @media screen and (max-width: 1680px) {
     .about-me-content h2 {
         font-size: 2.5vw;
     }
     
-    /* Font size for the text in the About Me section */
     .about-me-content p {
         font-size: 1.5vw;
     }
@@ -74,8 +76,7 @@
     .about-me-content h2 {
         font-size: 3vw;
     }
-    
-    /* Font size for the text in the About Me section */
+
     .about-me-content p {
         font-size: 2vw;
     }
@@ -85,8 +86,7 @@
     .about-me-content h2 {
         font-size: 3.5vw;
     }
-    
-    /* Font size for the text in the About Me section */
+
     .about-me-content p {
         font-size: 2.25vw;
     }
@@ -96,8 +96,7 @@
     .about-me-content h2 {
         font-size: 3.75vw;
     }
-    
-    /* Font size for the text in the About Me section */
+
     .about-me-content p {
         font-size: 2.5vw;
     }

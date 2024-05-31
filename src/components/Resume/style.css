@@ -1,3 +1,4 @@
+/* Specifications for the content of this page */
 .resume-content {
     margin: 5px 0;
     padding: 5px 0;
@@ -8,6 +9,7 @@
     width: 90%;
 }
 
+/* Adjust the sizes for the header elements */
 .resume-content h2 {
     font-size: 125%;
     padding-right: 10px;
@@ -27,6 +29,7 @@
     flex: 0 0 80%;
 }
 
+/* Adjust the icon to the center */
 .download-resume {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +43,7 @@
     padding: 5px;
 }
 
-/* Animation when hovering over each contact option */
+/* Animation when hovering over the icon */
 .download-resume a:hover {
     transform: scale(1.25);
     transition: transform .5s ease;
@@ -55,12 +58,14 @@
     transition: transform .5s ease;
 }
 
+/* Class selector for putting all the skills into a flex container */
 .skills-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/* Class selector for defining each skillset into their own separate flex container */
 .skills-card {
     display: flex;
     flex-direction: column;

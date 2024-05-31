@@ -45,6 +45,7 @@ nav ul span:hover::before {
     width: 100%;
 }
 
+/* Duplicated hover effect that reverses the colors to indicated which page it is on */
 nav ul > li.active span {
     font-size: 25px;
     color: #cb010d;

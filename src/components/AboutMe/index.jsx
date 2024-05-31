@@ -4,6 +4,7 @@ import './style.css'
 function AboutMe() {
     return (
         <section className="about-me-content">
+            {/* This is an icon for the page */}
             <section className="center-icon">
                 <section id="about-icon"></section>
             </section>

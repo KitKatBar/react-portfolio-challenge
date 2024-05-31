@@ -9,6 +9,7 @@ function Footer() {
             </h3>
             <address className="contact">
                 <ul>
+                    {/* Each contact option with an icon and link */}
                     <li>
                         <a id="phone" href="tel:my-number-here"> </a>
                     </li>

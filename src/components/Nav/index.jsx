@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css'
 
 function Nav(props) {
+    // For tracking each of the pages and setting the current page
     const {
         pages = [],
         current,
@@ -11,6 +12,7 @@ function Nav(props) {
     return (
         <nav>
             <ul>
+                {/* Set the current page to whichever nav link is clicked */}
                 <li className={current.page === pages[0].page && 'active'} key={pages[0].page}>
                     <span onClick={() => setCurrent(pages[0])}>About Me</span>
                 </li>

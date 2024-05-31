@@ -1,3 +1,4 @@
+/* Specifications for the content of this page */
 .contact-content {
     margin: 5px 0;
     padding: 5px 0;
@@ -8,6 +9,7 @@
     width: 80%;
 }
 
+/* Adjust the icon to the center */
 .center-icon {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +23,7 @@
     padding: 5px;
 }
 
-/* Animation when hovering over each contact option */
+/* Animation when hovering over the icon */
 .center-icon section:hover {
     transform: scale(1.25);
     transition: transform .5s ease;
@@ -36,6 +38,7 @@
     transition: transform .5s ease;
 }
 
+/* Adjust the sizes for the header elements */
 .contact-content h2 {
     font-size: 125%;
     padding-right: 10px;
@@ -44,7 +47,7 @@
     color: #fdfff2;
 }
 
-/* Dark mode form box */
+/* Form box */
 .form-box {
     background-color: #440c14;
     color: white;
@@ -79,7 +82,7 @@ form label {
     padding: 5px;
 }
 
-/* Dark mode input background box and text */
+/* Input background box and text */
 input {
     border-radius: 5px;
     border-width: 3px;
@@ -105,7 +108,7 @@ input {
     color: #f4e7d0;
 }
 
-/* Dark mode error display message when the form is not filled out */
+/* Display a message of error/success based on whether the input is valid or not */
 form p {
     font-size: 30px;
     margin: 10px 0;
