@@ -8,7 +8,7 @@ function Resume() {
                 Resume
             </h2>
             <section className="download-resume">
-                <a id="download-icon" href="../../assets/resume/katriel-chiu-resume.pdf" download> </a>
+                <a id="download-icon" href="katriel-chiu-resume.pdf" download> </a>
             </section>
             <h3>Click me to download!</h3>
             <h2>
