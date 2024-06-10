@@ -50,6 +50,8 @@ Clicking on the 'Resume' button will render the resume section.  You will see an
 
 Video tutorial on how to add an animated background in React: https://www.youtube.com/watch?v=LSRNmhLS76o
 
+Animated background: https://wallpaperwaifu.com/anime/hu-tao-genshin-impact-4k-live-wallpaper/
+
 Icons that I used: https://genshin-impact.fandom.com/wiki/Chat/Gallery
 
 Hover effects that I used for the navigation bar: https://css-tricks.com/css-link-hover-effects/
